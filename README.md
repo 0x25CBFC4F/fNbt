@@ -31,7 +31,7 @@ applications that use fNbt; they are only used for testing.
 ## DOWNLOAD
 Latest version of fNbt requires .NET Framework 3.5+ (client or full profile).
 
-- **Package @ NuGet:**  https://www.nuget.org/packages/fNbt/
+- **Package @ NuGet:**  https://www.nuget.org/packages/fNbt-netcore
 
 ## EXAMPLES
 #### Loading a gzipped file
