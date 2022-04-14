@@ -1,4 +1,6 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/vcdkhya4u6h26qr2/branch/master?svg=true)](https://ci.appveyor.com/project/fragmer/fnbt/branch/master)
+## This is a .NET 6 port from https://github.com/mstefarov/fNbt
+
+Package may be manually
 
 [Named Binary Tag (NBT)](https://minecraft.gamepedia.com/NBT_format) is a structured binary file format used by Minecraft.
 fNbt is a small library, written in C# for .NET 3.5+. It provides functionality
@@ -30,17 +32,6 @@ applications that use fNbt; they are only used for testing.
 Latest version of fNbt requires .NET Framework 3.5+ (client or full profile).
 
 - **Package @ NuGet:**  https://www.nuget.org/packages/fNbt/
-
-- **Compiled binary:**  https://fcraft.net/fnbt/fNbt_v0.6.4.zip
-    <br><sup>SHA1: 600853530fd538e614b6cb4722ced81917e9615d</sup>
-
-- **Amalgamation** (single source file):
-    * Non-annotated: https://fcraft.net/fnbt/fNbt_v0.6.4.cs
-	    <br><sup>SHA1: 9298dbe00d080bcf5d32299415aaf856590ba3bf</sup>
-    * Annotated (using [JetBrains.Annotations](https://blog.jetbrains.com/dotnet/2018/05/03/what-are-jetbrains-annotations/)):
-	    https://fcraft.net/fnbt/fNbt_v0.6.4_Annotated.cs
-		<br><sup>SHA1: ae096d83b57bf59c708ad66168d45c1ea9b58175</sup>
-
 
 ## EXAMPLES
 #### Loading a gzipped file

@@ -5,6 +5,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <LangVersion>default</LangVersion>
+        <PackageId>fNbt-netcore</PackageId>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageVersion>0.6.5</PackageVersion>
+        <Title>A C# library for reading and writing Named Binary Tag (NBT) files and streams. A continuation of libnbt project, originally by Erik Davidson (aphistic). This is a .NET 6 fork.</Title>
+        <Authors>aphistic, support by mstefarov, .NET 6 port by 0x25CBFC4F</Authors>
+        <PackageProjectUrl>https://github.com/0x25CBFC4F/fNbt</PackageProjectUrl>
+        <Company>0x25CBFC4F</Company>
+        <Product>fNbt-port</Product>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <AssemblyVersion>0.6.5</AssemblyVersion>
+        <FileVersion>0.6.5</FileVersion>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
