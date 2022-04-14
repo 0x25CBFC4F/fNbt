@@ -1,6 +1,6 @@
 ## This is a .NET 6 port from https://github.com/mstefarov/fNbt
 
-Package may be manually
+Package may be manually uploaded to NuGet. Create issue if you have a problem.
 
 [Named Binary Tag (NBT)](https://minecraft.gamepedia.com/NBT_format) is a structured binary file format used by Minecraft.
 fNbt is a small library, written in C# for .NET 3.5+. It provides functionality

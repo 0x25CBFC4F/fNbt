@@ -5,12 +5,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <LangVersion>default</LangVersion>
-        <PackageId>fNbt-netcore</PackageId>
     </PropertyGroup>
     
     <PropertyGroup>
+        <PackageId>fNbt-netcore</PackageId>
+        <Description>A C# library for reading and writing Named Binary Tag (NBT) files and streams. A continuation of libnbt project, originally by Erik Davidson (aphistic). This is a .NET 6 fork.</Description>
+        <PackageLicenseUrl>https://github.com/0x25CBFC4F/fNbt/blob/master/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/0x25CBFC4F/fNbt</RepositoryUrl>
+        <PackageTags>minecraft, nbt</PackageTags>
         <PackageVersion>0.6.5</PackageVersion>
-        <Title>A C# library for reading and writing Named Binary Tag (NBT) files and streams. A continuation of libnbt project, originally by Erik Davidson (aphistic). This is a .NET 6 fork.</Title>
+        <Title>fNbt .NET Port</Title>
         <Authors>aphistic, support by mstefarov, .NET 6 port by 0x25CBFC4F</Authors>
         <PackageProjectUrl>https://github.com/0x25CBFC4F/fNbt</PackageProjectUrl>
         <Company>0x25CBFC4F</Company>
